@@ -1,5 +1,6 @@
 #!/usr/bin/python
 
+# Script to test main invocation
 def main():
     print "I am in main"
 
