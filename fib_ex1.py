@@ -1,5 +1,7 @@
 #!/usr/bin/python
 
+import sys
+
 def fib(n):
     if(n==0):
         return 0
@@ -8,10 +10,11 @@ def fib(n):
     else:
         return fib(n-1)+fib(n-2)
 
-def main():
-    a=range(30)
+def main(argv):
+    n=int(argv[1])
+    a=range(n)
     b=[fib(x) for x in a]
     print b
 
 if __name__ == "__main__":
-    main()
+    main(sys.argv)
