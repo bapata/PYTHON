@@ -12,8 +12,8 @@ def addCust(name,street,city,state,balance):
 
 def main():
   createTable()
-  addCust('Anand Bapat','10250','cupertino','CA',1.1)
-  addCust('Ajita Bapat','10250','cupertino','CA',2.2)
+  addCust('bob smith','1212','santa clara','CA',1.1)
+  addCust('rick penn','102','sunnyvale','CA',2.2)
   createDB.commit()
   queryCurs.execute('SELECT * FROM customers')
 

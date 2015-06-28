@@ -23,11 +23,11 @@ class myClass2(myClass1):
 def main():
     obj1=myClass1()
     obj1.method1()
-    obj1.method2("yahoo")
+    obj1.method2("company1")
 
     obj2=myClass2()
     obj2.method1()
-    obj2.method2("sunnyvale")
+    obj2.method2("city1")
 
 
 if (__name__ == "__main__"):
