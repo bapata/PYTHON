@@ -1,5 +1,7 @@
 #!/usr/bin/python
 
+# Use of range example
+
 def main():
     x=0
     while(x<10):

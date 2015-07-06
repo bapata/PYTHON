@@ -1,5 +1,12 @@
 #!/usr/bin/python
 
+# 
+## Example script to demonstrate use of ARGC, ARGV in python
+## USAGE: <this-script> 1 2 3
+##        <this-script> 4 3 5 6 9
+## Exepected output is sum of all arguments
+#
+
 import io, sys
 
 # Script to test main invocation
@@ -22,8 +29,6 @@ def sum_of_args(list):
         sum+=list[ii]
 
     return sum
-
-    
 
 
 def main(argv):

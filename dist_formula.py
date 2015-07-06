@@ -1,5 +1,7 @@
 #!/usr/bin/python
 
+# Math class usage in python
+
 import math
 
 x1=2

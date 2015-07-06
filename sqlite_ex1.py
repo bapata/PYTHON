@@ -1,3 +1,7 @@
+#!/usr/bin/env python
+
+# Database example using sqlite3 python module
+
 import sqlite3
 createDB=sqlite3.connect(':memory:')
 queryCurs=createDB.cursor()

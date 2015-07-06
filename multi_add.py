@@ -1,4 +1,7 @@
 #!/usr/bin/python
+
+# Adding multiple numbers and variable number of arguments in python
+
 def multi_add(*args):
     result=0
     for ii in args:

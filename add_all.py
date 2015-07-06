@@ -1,5 +1,9 @@
 #!/usr/bin/python
 
+#
+## Python script to demonstrate use of variable number of arguments
+#
+
 def add_all(*args):
   sum=0
   for ii in args:

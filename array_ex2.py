@@ -1,5 +1,7 @@
 #!/usr/bin/python
 
+## Use of several methods on a string list in python
+
 def main():
     team1=['tendulkar','dhoni','rohit','kohli','amarnath']
 

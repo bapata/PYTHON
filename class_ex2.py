@@ -1,5 +1,7 @@
 #!/usr/bin/python
 
+## Use of class, objects and methods in python
+
 class Employee():
   def __init__(self,name,state,category):
     self._name=name

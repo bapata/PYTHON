@@ -6,7 +6,7 @@ c=",".join(b)
 
 print c
 
-fruits=['mango','orange','apple','pineapple','sapota']
+fruits=['mango','orange','apple','pineapple','sapota','jackfruit','cherries']
 
-fruits_i_like=[x for x in fruits if x not in ['sapota','pineapple']]
+fruits_i_like=[x for x in fruits if x not in ['cherries','pineapple']]
 print fruits_i_like

@@ -1,3 +1,7 @@
+#!/usr/bin/env python
+
+# Reading input example
+
 import Math
 a=raw_input("Enter your favorite number : ")
 

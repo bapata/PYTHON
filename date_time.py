@@ -1,5 +1,7 @@
 #!/usr/bin/python
 
+# Use of date,time class in python
+
 from datetime import date
 from datetime import time
 from datetime import datetime

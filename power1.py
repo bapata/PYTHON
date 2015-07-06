@@ -1,5 +1,7 @@
 #!/usr/bin/python
 
+## Calculating "x to the power of y" using several methods
+
 def power1(x,y):
   return x ** y
 

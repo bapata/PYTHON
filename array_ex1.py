@@ -1,5 +1,7 @@
 #!/usr/bin/python
 
+# Python script to demonstrate use of methods on a list
+
 def main():
     snacks=['idly','dosa','vada','bisibelebhath','chowchowbhat']
     lunch_items=['chapati','rice','pulao']

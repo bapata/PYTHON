@@ -1,6 +1,8 @@
 #!/usr/bin/python
 import sys
 
+# Use of ARGC, ARGV in python
+
 def main(argv=None):
     if(argv==None):
         argv=sys.argv

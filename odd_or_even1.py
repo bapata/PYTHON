@@ -1,5 +1,6 @@
 #!/usr/bin/python
 
+## Print odd and even list
 
 def print_even_list(list):
   print "EVEN:"

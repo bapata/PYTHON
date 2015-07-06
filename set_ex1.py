@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+# How to use sets in python
+
 from sets import Set
 
 a=['one','two','four']
