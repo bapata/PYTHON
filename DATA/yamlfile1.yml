@@ -1,0 +1,20 @@
+yahoo:
+    USA: 
+      - Sunnyvale
+      - SantaMonica
+    India:
+      - Bengaluru
+      - Mumbai
+cisco:
+    USA:
+      - SanJose
+      - RTP
+    India:
+      - Bengaluru
+      - Mumbai
+facebook:
+    USA:
+      - Menlopark
+      - PaloAlto
+    India:
+      - bhagyanagar
