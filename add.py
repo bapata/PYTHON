@@ -30,6 +30,12 @@ def sum_of_args(list):
 
     return sum
 
+def sum_of_args_recursion(list1):
+  if len(list1)==1:
+    return list1[0]
+  else:
+    return list1[0] + recur_add(list1[1:])
+
 
 def main(argv):
     print "I am in main"
