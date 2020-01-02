@@ -1,8 +1,15 @@
 #!/usr/bin/python
+
+# Program to show minimum number of coins required given cents as input
+# USAGE: <this-script> <cent-value>
+# Example: ./min_coins.py 31
+
 import sys
 # 25-cents: Quarters
 # 10-cents: Dime
-# 5-cents: 
+# 5-cents:  Nickels
+# 1-cents:  Pennies
+
 def min_coins(cents):
   coin_dict = {'Q':0,'D':0,'N':0,'P':0}
   QV=25
@@ -21,15 +28,15 @@ def min_coins(cents):
       coin_dict['D'] = coin_dict['D'] + dime_count
     cents = cents - (dime_count * DV)
 
-    penny_count = cents/PV
-    if penny_count > 0:
-      coin_dict['P'] = coin_dict['P'] + penny_count
-    cents = cents - (penny_count * PV)
-
     nickel_count = cents/NV
     if nickel_count > 0:
       coin_dict['N'] = coin_dict['N'] + nickel_count
     cents = cents - (nickel_count * NV)
+
+    penny_count = cents/PV
+    if penny_count > 0:
+      coin_dict['P'] = coin_dict['P'] + penny_count
+    cents = cents - (penny_count * PV)
 
   return coin_dict
 
