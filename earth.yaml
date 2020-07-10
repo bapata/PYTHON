@@ -1,0 +1,23 @@
+---
+continents:
+  - Africa:
+    - Ghana
+    - Kenya
+    - Egypt
+    - Morocco
+  - Asia:
+    - India
+    - Singapore
+    - SouthKorea
+    - Srilanka
+  - Europe:
+    - France
+    - Italy
+  - NorthAmerica:
+    - USA
+    - Mexico
+  - SouthAmerica:
+    - Brazil
+    - Peru
+  - Antartica:
+  - Australia:
