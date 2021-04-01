@@ -26,6 +26,9 @@ def main():
     sys.exit(1)
 
   n=int(sys.argv[1])
+  if (n<1000) or (n>9999):
+    print "Digit has to be between 1000 and 9999 .."
+    exit(1)
 
   KNUM=6174
   print "You started with initial number = " + str(n)
@@ -35,6 +38,9 @@ def main():
     b=low_to_high(n)
     print "low_to_high: " + str(b)
     n=a-b
+    if(n<=0):
+      print "digits should be unique, please try again"
+      exit(1)
     print "intermediate number is: " + str(n)
 
   print "We have hit kaprekars number: " + str(n)
