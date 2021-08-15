@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+
+# Limit x->0, x-to-the-power-of-x is 1
 import sys
 
 val_list = sys.argv[1:]
